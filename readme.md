@@ -1,11 +1,11 @@
-# Research Gaps Identifier
+# Research Gaps Identification with Graphs
 
 A scalable Python application for identifying research gaps using keyword co-occurrence analysis with Apache Spark and GPU acceleration.
 
 ## Features
 
 - Distributed processing with Apache Spark
-- GPU acceleration for computational tasks
+- GPU acceleration
 - N-gram analysis (unigrams, bigrams, trigrams)
 - Graph-based research gap identification
 - Interactive visualizations
@@ -23,7 +23,7 @@ A scalable Python application for identifying research gaps using keyword co-occ
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/research-gaps.git
+git clone https://github.com/SandeepChatterjee66/research-gaps.git
 cd research-gaps
 ```
 
@@ -63,6 +63,8 @@ research_gaps/
 └── main.py                # Main execution script
 ```
 
+PS : this was old structure, all the files are in root now.
+
 ## Configuration
 
 Edit `config/config.py` to modify:
@@ -89,7 +91,7 @@ class ProjectConfig:
 
 2. Update the data path in `main.py`:
 ```python
-df = loader.load_csv("path/to/your/data.csv", "keywords")
+df = loader.load_csv("datasets/data.csv", "keywords")
 ```
 
 3. Run the analysis:
@@ -158,5 +160,5 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - your.email@example.com
-Project Link: https://github.com/yourusername/research-gaps
+Sandeep Chatterjee
+Project Link: https://github.com/SandeepChatterjee66/research-gaps
