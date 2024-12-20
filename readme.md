@@ -89,6 +89,8 @@ class ProjectConfig:
    - id: unique identifier
    - keywords: array of keywords
 
+Note : Dataset upload has failed due to error in commits but few data are there
+
 2. Update the data path in `main.py`:
 ```python
 df = loader.load_csv("datasets/data.csv", "keywords")
@@ -161,4 +163,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 
 Sandeep Chatterjee
-Project Link: https://github.com/SandeepChatterjee66/research-gaps
+Project Link: https://github.com/SandeepChatterjee66/Research-Gap-Identification
